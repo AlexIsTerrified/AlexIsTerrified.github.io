@@ -3,12 +3,17 @@
 	<meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="profile-texture.css">
 	<link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Open+Sans+Condensed:300|Oswald|Quicksand&display=swap" rel="stylesheet">
-	<scriptsrc="https://code.jquery.com/jquery-3.4.1.js"
+	<script src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
 	<script  language="javascript" type="text/javascript" src="profile.js"></script>
 </head>
 <body id="profile">
+<div class="menu" onclick="menuCl()">
+			<div class="menu-1"></div>
+			<div class="menu-2"></div>
+			<div class="menu-3"></div>
+		</div>
 	<nav>
 		<div>
 			<a href="http://www.facebook.com" target="blank"><img src="./img/fbicon.png"/></a>
@@ -16,10 +21,10 @@
 			<a href="http://www.instagram.com/terrifiedofheights" target="blank"><img src="./img/igicon.png"/></a>
 		</div>
 		<div class="space"></div>
-		<span><a id="1" onclick="autoScroll('home')">HOME</a></span>
-		<span><a id="2" onclick="autoScroll('about')">ABOUT</a></span>
-		<span><a id="3">DESIGNS</a></span>
-		<span><a id="4">CONTACT</a></span>
+		<span><a id="4" onclick="autoScroll('contact'),menuCl()">CONTACT</a></span>
+		<span><a id="3" onclick="autoScroll('design'),menuCl()">DESIGNS</a></span>
+		<span><a id="2" onclick="autoScroll('about'),menuCl()">ABOUT</a></span>
+		<span><a id="1" onclick="autoScroll('home'),menuCl()">HOME</a></span>
 	</nav>
 	<section id="home">
 		<div class="profile-home">
@@ -29,6 +34,50 @@
 		</div>
 	</section>
 	<section id="about">
-		
+		<div class="info">
+			<div class="graph">
+				<img src="./img/frontend.png"/>
+				<span class="title">FRONT END DEVELOPMENT</span>
+				<p>I like to code things from scratch, and enjoy bringing ideas to life in the browser</p>
+			</div>
+			<div class="info-text">
+				<span class="header">CODING SKILLS</span>
+				<p>HTML | CSS3 | JAVASCRIPT | REACT.JS | JQUERY | NODE.JS | PHP | JAVA </p>
+				<span class="header">DEV TOOLS</span>
+				<p>ATOM | GITHUB | NOTEPAD++ | TERMINAL</p>
+			</div>
+		<div>
+	</section>
+	<section id="design">
+		<div class="item-list">
+			<div class="box">
+			</div>
+			<div class="box">
+			</div>
+			<div class="box">
+			</div>
+			<div class="box">
+			</div>
+			<div class="box">
+			</div>
+			<div class="box">
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div>
+		<div>
+		<span>SOCIAL MEDIA</span>
+		<a href="http://facebook.com/">Facebook</a>
+		<a href="http://instagram.com/terrifiedofheights">Instagram</a>
+		<a href="http://twitter.com/terrfiedofh">Twitter</a>
+		<a href="http://linkedin.com">Linkedin</a>
+		<a href="http://github.com/alexisterrified">Github</a>
+		</div>
+		<div>
+		<span>EMAIL</span>
+		<a href="mailto:alexmoontoh@gmail.com?Subject=Hello" target="_top"><button>Alexmoontoh@gmail.com</button></a>
+		</div>
+		</div>
 	</section>
 </body>
