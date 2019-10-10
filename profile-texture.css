@@ -1,3 +1,18 @@
-#profile{margin:0;padding:0;display:flex}
-#profile nav{width:300px;height:60%;position:fixed;box-shadow: 2px 0 3px black}
-#profile section{width:100%;height:100%}
+#profile{margin:0;padding:0;display:flex;flex-direction: column;}
+#profile nav{width:100%;position:fixed;display:flex;justify-content: space-between;align-items: center;text-align: center;padding: 40px 0;}
+#profile nav span{text-align:Center;flex:1;font-family: 'Big Shoulders Text', cursive;    letter-spacing: 3px;}
+#profile nav span a{color:#ccc;text-decoration:none;transition:.3s}
+#profile nav span:hover a{color:white;cursor:pointer}
+#profile nav div {flex:2;display:flex;justify-content: space-evenly;}
+#profile nav .space{flex:2}
+#profile nav div a img{width:32px;height:32px;flex:1;opacity:.8;transition:.3s}
+#profile nav div a img:hover{opacity:1;transform: translateY(-2px);cursor:pointer}
+
+#profile section{width:100%;height:100%;}
+#profile #home{background: linear-gradient(300deg,#245863,#06171f);display:flex;justify-content: center;}
+#profile #home .profile-home{display:flex;align-self:center;align-items:center;flex-direction:column}
+#profile #home .profile-home .profile-img{width:200px;height:200px;box-shadow: 0 0 3px black;border-radius:100%;margin:20px}
+#profile #home .profile-home .name{color:#ccc;font-family: 'Oswald', sans-serif;text-align:center;font-size:xx-large;letter-spacing: 4px;}
+#profile #home .profile-home p{color:#ccc;font-family: 'Open Sans Condensed', sans-serif;margin: 0;}
+
+#profile #about{background: linear-gradient(90deg,#000,#222);}

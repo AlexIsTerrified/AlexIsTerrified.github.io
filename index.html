@@ -4,16 +4,29 @@
 	<link rel="stylesheet" type="text/css" href="profile-texture.css">
 	<link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Open+Sans+Condensed:300|Oswald|Quicksand&display=swap" rel="stylesheet">
 	<script language="javascript" type="text/javascript" src="jquery-3.2.1.js"></script>
-	<script  language="javascript" type="text/javascript" src="book-store.js"></script>
+	<script  language="javascript" type="text/javascript" src="profile.js"></script>
 </head>
 <body id="profile">
 	<nav>
-		<a><span>HOME</span></a>
-		<a><span>ABOUT</span></a>
-		<a><span>DESIGNS</span></a>
-		<a><span>CONTACT</span></a>
+		<div>
+			<a href="http://www.facebook.com" target="blank"><img src="./img/fbicon.png"/></a>
+			<a href="http://www.twitter.com/terrifiedofh" target="blank"><img src="./img/twittericon.png"/></a>
+			<a href="http://www.instagram.com/terrifiedofheights" target="blank"><img src="./img/igicon.png"/></a>
+		</div>
+		<div class="space"></div>
+		<span><a id="1" onclick="autoScroll('home')">HOME</a></span>
+		<span><a id="2" onclick="autoScroll('about')">ABOUT</a></span>
+		<span><a id="3">DESIGNS</a></span>
+		<span><a id="4">CONTACT</a></span>
 	</nav>
-	<section class="home">
+	<section id="home">
+		<div class="profile-home">
+			<img class="profile-img" src="./img/propic.jpg"/>
+			<span class="name">ALEX MOON</span>
+			<p>I program stuff sometimes *insert emoji wearing shades or whatever the fuck*</p>
+		</div>
+	</section>
+	<section id="about">
 		
 	</section>
 </body>
