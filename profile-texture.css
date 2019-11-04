@@ -7,7 +7,7 @@
 #profile nav .space{flex:2}
 #profile nav div a img{width:32px;height:32px;flex:1;opacity:.8;transition:.3s}
 #profile nav div a img:hover{opacity:1;transform: translateY(-2px);cursor:pointer;box-shadow: 0 0 1px #222;border-radius:360px}
-#profile nav div a svg{height:32;width:32;fill:#ccc;opacity:.8}
+#profile nav div a svg{height:32;width:32;fill:#ccc;opacity:.8;transition:.3s}
 #profile nav div a svg:hover{opacity:1;transform: translateY(-2px);cursor:pointer;}
 #profile .menu{display:none;flex-direction:column;cursor:pointer;transition:.3s;position: fixed;padding: 20px;align-self: flex-end;z-index: 5;}
 .menu div{background:#ccc;width:30px;height:5px;margin-bottom:4px;}
@@ -18,7 +18,7 @@
 .close .menu-2{visibility:hidden;}
 .close .menu-3{transform:translate(0px,-10px) rotate(-40deg);transition:all 0.5s}
 
-#profile section{width:100%;height:100%;min-height:500px}
+#profile section{width:100%;height:100%;min-height:600px}
 #profile #home{background: linear-gradient(320deg,#245863,#06171f)fixed;display:flex;justify-content: center;}
 #profile #home .profile-home{display:flex;align-self:center;align-items:center;flex-direction:column}
 #profile #home .profile-home .profile-img{width:200px;height:200px;box-shadow: 0 0 3px black;border-radius:100%;margin:20px}
@@ -44,11 +44,11 @@ border-radius:9px;box-shadow: 0 0 3px #ccc;background:#ddd}
 #profile #design span{text-align:center;font-weight: 600;font-family: 'Oswald', sans-serif;font-size: xx-large;color:#ccc;padding:80px 0 0 0;}
 #profile #design p{;font-family: 'Open Sans Condensed', sans-serif;text-align:center;font-size:large;color:#ccc}
 #profile #design .item-list{display:flex;padding:20px 20px;flex-wrap:wrap;justify-content: space-evenly;}
-#profile #design .item-list .box{width:360px;min-width: 300px;height:220px;margin:10px;border-radius: 6px;box-shadow: 0 0 2px black;display:flex;
+#profile #design .item-list .box{width:320px;min-width:320px;height:280px;margin:10px;border-radius: 6px;box-shadow: 0 0 2px black;display:flex;
 flex-direction:column;overflow:hidden;align-items:center;justify-content: center;}
 #profile #design .item-list .box a{display:flex;flex-direction:column;overflow:hidden;align-items:center;justify-content: center;cursor:pointer}
 #profile #design .item-list .box a .bg-img{width:400px;height:400px;filter: blur(5px);}
-#profile #design .item-list .box a .box-info{position:absolute;width:360px;height:200px;padding:10px 0;display: flex;justify-content:center;flex-direction:column;
+#profile #design .item-list .box a .box-info{position:absolute;width:320px;height:260px;padding:10px 0;display: flex;justify-content:center;flex-direction:column;
 background:#0008;    border-radius: 6px;}
 #profile #design .item-list .box a .box-info span{letter-spacing:2px;padding:0;flex:1}
 #profile #design .item-list .box a .box-info b{display:flex;align-self:center;color:#ccc;flex:1;font-family: 'Big Shoulders Text', cursive;letter-spacing: 3px;}
