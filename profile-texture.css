@@ -8,7 +8,7 @@
 #profile nav div a img{width:32px;height:32px;flex:1;opacity:.8;transition:.3s}
 #profile nav div a img:hover{opacity:1;transform: translateY(-2px);cursor:pointer;box-shadow: 0 0 1px #222;border-radius:360px}
 #profile nav div a svg{height:32;width:32;fill:#ccc;opacity:.8;transition:.3s}
-#profile nav div a svg:hover{opacity:1;transform: translateY(-2px);cursor:pointer;}
+#profile nav div a svg:hover{opacity:1;transform: translateY(-2px);cursor:pointer;box-shadow: 0 0 1px #222;border-radius: 360px;}
 #profile .menu{display:none;flex-direction:column;cursor:pointer;transition:.3s;position: fixed;padding: 20px;align-self: flex-end;z-index: 5;}
 .menu div{background:#ccc;width:30px;height:5px;margin-bottom:4px;}
 .menu:hover div{background:white;}
