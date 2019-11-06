@@ -42,7 +42,9 @@ border-radius:9px;box-shadow: 0 0 3px #ccc;background:#ddd}
 
 #profile #design{background: linear-gradient(320deg,#245863,#06171f) fixed;height: inherit;min-height:100%;display:flex;flex-direction:column}
 #profile #design span{text-align:center;font-weight: 600;font-family: 'Oswald', sans-serif;font-size: xx-large;color:#ccc;padding:80px 0 0 0;}
-#profile #design p{;font-family: 'Open Sans Condensed', sans-serif;text-align:center;font-size:large;color:#ccc}
+#profile #design p{font-family: 'Open Sans Condensed', sans-serif;text-align:center;font-size:large;color:#ccc;padding:10px;letter-spacing:1px}
+#profile #design p a{color:#aaa;}
+#profile #design p a:hover{color:#fff}
 #profile #design .item-list{display:flex;padding:20px 20px;flex-wrap:wrap;justify-content: space-evenly;}
 #profile #design .item-list .box{width:320px;min-width:320px;height:280px;margin:10px;border-radius: 6px;box-shadow: 0 0 2px black;display:flex;
 flex-direction:column;overflow:hidden;align-items:center;justify-content: center;}
