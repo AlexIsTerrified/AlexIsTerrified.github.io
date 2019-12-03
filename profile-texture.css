@@ -18,7 +18,7 @@
 .close .menu-2{visibility:hidden;}
 .close .menu-3{transform:translate(0px,-10px) rotate(-40deg);transition:all 0.5s}
 
-#profile section{width:100%;height:100%;min-height:600px}
+#profile section{width:100%;height:100%;min-height:600px;min-height:-webkit-fill-available}
 #profile #home{background: linear-gradient(320deg,#245863,#06171f)fixed;display:flex;justify-content: center;}
 #profile #home .profile-home{display:flex;align-self:center;align-items:center;flex-direction:column}
 #profile #home .profile-home .profile-img{width:200px;height:200px;box-shadow: 0 0 3px black;border-radius:100%;margin:20px}
